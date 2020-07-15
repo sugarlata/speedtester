@@ -34,11 +34,7 @@ def main():
 
 def upload(filename):
 
-    with FTP(
-        host='192.168.5.215',
-        user=FTP_CREDS['user'],
-        passwd=FTP_CREDS['pass']
-    ) as ftp:
+    with FTP(host='192.168.5.215', user=FTP_CREDS['user'], passwd=FTP_CREDS['pass']) as ftp:
         ftp.login()
         ftp.cwd('/Volumes/SW/speedtest')
 
