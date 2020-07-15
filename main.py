@@ -26,7 +26,11 @@ def main():
         str(pg_speed)
         ]))
 
-    upload(FILENAME)
+    try:
+        upload(FILENAME)
+    except:
+        pass
+
 
 def upload(filename):
 
