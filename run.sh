@@ -1,0 +1,1 @@
+python ~/python/speedtester/main.py
