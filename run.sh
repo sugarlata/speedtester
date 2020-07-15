@@ -1,1 +1,1 @@
-python ~/python/speedtester/main.py
+python3 ~/python/speedtester/main.py
